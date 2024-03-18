@@ -507,6 +507,8 @@ header{
     /*flex-flow: row nowrap;*/
 }
 
+
+
 .libros-pq:hover{
     cursor: pointer;
     transform: scale(1.02);
@@ -567,6 +569,14 @@ header{
     /*font-size: 15px;*/
     width: 100%;
     padding-top: 15px;
+}
+
+.libro-celular{
+    display: none;
+}
+
+.libro-celular .libro-left-pq{
+    display: none;
 }
 
 .footer-box{
@@ -1105,6 +1115,31 @@ footer{
 
 
 @media screen and (max-width: 565px){
+    .libro-pc{
+        display: none;
+    }
+    .libro-pc .libro-left-pq,
+    .libro-pc .libro-right-pq {
+        display: none;
+    }
+    .libro-celular{
+        display: flex;
+    }
+
+    .libro-titulo-pq{
+        line-height: 1rem;
+    }
+
+    .libro-titulo-pq,
+    .libro-edad-pq{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .libro-celular .libro-left-pq{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
     .libros-pq{
         width: 100%;
         height: fit-content;
@@ -1120,16 +1155,7 @@ footer{
         height: auto;
     }
     
-    .lasaventurasdeventurio-pq .libro-left-pq{
-        display: flex;
-        flex-flow: column;
-    }
-
-    .lasaventurasdeventurio-pq .libro-right-pq .correo-pq{
-        display: none;
-    }
-    
-    .lasaventurasdeventurio-pq .libro-left-pq .correo-pq{
-        display: block;
+    .libro-left-pq img{
+        width: 50%;
     }
 }
