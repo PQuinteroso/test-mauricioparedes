@@ -1,0 +1,1135 @@
+/*PQ FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Site settings */
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0;
+    background-color: #d1d7f8;
+}
+
+a {
+    text-decoration: none;
+}
+/*
+a:link {
+    color: #000C17;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #000C17;
+}
+
+a:hover {
+    color: #FF6B00;
+}
+
+a * {
+    color: #000C17;
+    text-decoration: none;
+}*/
+
+sup {
+    font-size: 0.5em;
+    vertical-align: 0.66em;
+}
+
+sub {
+    font-size: 0.5em;
+    vertical-align: -0.1em;
+}
+
+.xr_tl {
+    /*position: absolute;*/
+    white-space: pre;
+    unicode-bidi: bidi-override;
+}
+
+.xr_tr {
+    position: absolute;
+    white-space: pre;
+    unicode-bidi: bidi-override;
+    text-align: right;
+}
+
+.xr_tc {
+    position: absolute;
+    white-space: pre;
+    unicode-bidi: bidi-override;
+    text-align: center;
+}
+
+.xr_tj {
+    position: absolute;
+    unicode-bidi: bidi-override;
+    text-align: justify;
+}
+
+.xr_tb {
+    position: absolute;
+    unicode-bidi: bidi-override;
+}
+
+.xr_e1 {
+    display: inline-block;
+    border: none;
+    white-space: normal;
+}
+
+.xr_e2 {
+    /*position: absolute;*/
+    display: block;
+    border: none;
+}
+
+.xr_ap {
+    /*position: absolute;*/
+    width: 100%;
+}
+
+
+.xr_ae {
+    position: relative;
+    border: none;
+}
+
+.xr_strb {
+    z-index: 1;
+}
+
+.xr_strb .mxs-arrow,
+.xr_strb .mxs-navigation {
+    visibility: hidden;
+}
+
+.xr_strf {
+    z-index: 3;
+}
+
+
+.xr_ro,
+.xr_rd,
+.xr_rs {
+    z-index: 3;
+}
+
+.xr_tu {
+    unicode-bidi: bidi-override;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.xr_tt0 {
+    transition: all 0s;
+}
+
+.xr_tt1 {
+    transition: all 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.xr_tt2 {
+    transition: all 0.25s;
+    transition-timing-function: ease-in;
+}
+
+.xr_tt3 {
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.xr_tt4 {
+    transition: all 1s;
+    transition-timing-function: ease-in;
+}
+
+.xr_tt5 {
+    transition: all 2s;
+    transition-timing-function: ease-in;
+}
+
+a:hover .xr_ro,
+a:active .xr_rd,
+.xr_nb0:hover .xr_ro {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+}
+
+a:active .xr_ro {
+    opacity: 0;
+}
+
+.xr_ro,
+.xr_rd {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.xr_ro0,
+.xr_rd0,
+a:active .xr_ro0 {
+    opacity: 0;
+}
+
+.xr_ro1,
+.xr_rd1,
+a:active .xr_ro1 {
+    transform: translate3d(0, -20%, 0);
+}
+
+.xr_ro2,
+.xr_rd2,
+a:active .xr_ro2 {
+    transform: translate3d(20%, 0, 0);
+}
+
+.xr_ro3,
+.xr_rd3,
+a:active .xr_ro3 {
+    transform-origin: top;
+    transform: scale3d(1, 0.3, 1);
+}
+
+.xr_ro4,
+.xr_rd4,
+a:active .xr_ro4 {
+    transform-origin: left;
+    transform: scale3d(0.3, 1, 1);
+}
+
+.xr_ro5,
+.xr_rd5,
+a:active .xr_ro5 {
+    transform: rotate3d(1, 0, 0, 180deg);
+    -ms-transform: rotateX(180deg);
+}
+
+.xr_ro6,
+.xr_rd6,
+a:active .xr_ro6 {
+    transform: rotate3d(0, 1, 0, 180deg);
+    -ms-transform: rotateY(180deg);
+}
+
+.xr_ro7,
+.xr_rd7,
+a:active .xr_ro7 {
+    transform: rotate3d(0, 0, 1, 180deg);
+}
+
+.xr_ro8,
+.xr_rd8,
+a:active .xr_ro8 {
+    transform: scale3d(0.3, 0.3, 1);
+}
+
+.xr_ro9,
+.xr_rd9,
+a:active .xr_ro9 {
+    transform: skew(-30deg, 0) translate3d(10%, 0, 0);
+}
+
+.xr_ro10,
+.xr_rd10,
+a:active .xr_ro10 {
+    transform-origin: 50% 500%;
+    transform: rotate3d(0, 0, 1, 10deg);
+}
+
+.xr_ro11,
+.xr_rd11,
+a:active .xr_ro11 {
+    transform: translate3d(0, -50%, 0) scale3d(0.3, 0.3, 1);
+}
+
+.xr_ro12,
+.xr_rd12,
+a:active .xr_ro12 {
+    transform: translate3d(0, 20%, 0);
+}
+
+.xr_ro13,
+.xr_rd13,
+a:active .xr_ro13 {
+    transform: translate3d(-20%, 0, 0);
+}
+
+.xr_stickie {
+    z-index: 90;
+}
+
+.xr_nb0 {
+    touch-action: none;
+}
+
+.xr_nb0:hover>.xr_nb2,
+.xr_nb1:hover>.xr_nb2 {
+    visibility: visible;
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+.xr_nb2 {
+    white-space: nowrap;
+    padding: 0px;
+    margin: 0px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 101;
+}
+
+.xr_nb2 li {
+    display: block;
+}
+
+.xr_nb2 li a {
+    display: block;
+    text-decoration: none;
+}
+
+.xr_nb4 {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.xr_nb6 {
+    width: 100%;
+    height: 2px;
+}
+
+.xr_nb1 {
+    position: relative;
+}
+
+.xr_nb1:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: .5em;
+    height: 0px;
+    width: 0px;
+    border: 5px solid transparent;
+    margin-top: -5px;
+    margin-right: -3px;
+    border-color: transparent;
+    border-left-color: inherit;
+}
+
+.xr_apb {
+    display: block;
+    position: absolute;
+}
+
+.xr_c_Fondo_adulto {
+    color: #A4B0DD;
+}
+
+.xr_c_Theme_Color_1 {
+    color: #8C2727;
+}
+
+#xr_nb1 {
+    font-family: Arial;
+    font-size: 11px;
+}
+
+#xr_nb1 li:hover>a {
+    background-color: #666666;
+    color: #FFFFFF;
+}
+
+#xr_nb1 li a {
+    color: #000000;
+    background-color: #B2B2B2;
+    padding: 2px;
+    padding-right: 20px;
+}
+
+#xr_nb1 li>div {
+    background-color: #B2B2B2;
+    padding: 2px;
+}
+
+#xr_nb1 .xr_nb6 {
+    background-color: #000000;
+}
+
+#xr_nb1 li {
+    border-color: #000000;
+}
+
+#xr_nb1 li:hover {
+    border-color: #FFFFFF;
+}
+
+#xr_nb1 ul {
+    border: solid 0px #000000;
+    background-color: #B2B2B2;
+}
+
+#xr_nb1 .xr_nb2 {
+    transition: visibility 300ms;
+}
+
+/*CSS PQ*/
+
+header{
+    width: 100%;
+    background-color:#7f81ff;
+}
+
+.header-responsive-logo{
+    display: none;
+    width: 50%;
+    background: #d1d7f8;
+}
+
+.header-responsive-logo img{
+    width: 100%;
+}
+
+.menu-responsive-input{
+    display: none;
+}
+
+.menu-responsive{
+    display: none;
+}
+
+.menu-responsive svg{
+    color: #034790;
+    width: 50px;
+    cursor: pointer;
+}
+
+.header-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+
+.header-box a{
+    color: #f7f7f7;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    padding: 1px;
+}
+
+.header-title{
+    display: flex;
+    align-items: center;
+}
+
+.header-autors{
+    padding: 0 50px;
+}
+
+.header-ilustrador-subtext{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.link-box-pq{
+    background-color: #c23838;
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 5px;
+    min-width: 200px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+.header-box2{
+    max-width: 1200px;
+    padding: 0 5%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.header-box2 a{
+    color: #f7f7f7;
+    font-family: "Poppins", sans-serif;
+    padding: 1px;
+}
+
+.link-box-pq:hover{
+    
+    filter: brightness(1.05);
+    transform: scale(1.05);
+}
+
+.logo-box-pq{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    text-align: end;
+    margin:auto;
+    padding: 100px 0;
+}
+
+.logo-box-pq img{
+    width: 100%;
+}
+
+.logo-box-pq a{
+    color: #034790;
+}
+
+.total-libros-pq{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.libros-pq{
+    width: 483px;
+    height: 400px;
+    /*background-color: aqua;*/
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in-out;
+    /*flex-flow: row nowrap;*/
+}
+
+.libros-pq:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.libros-pq a{
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pq-nino{
+    border-radius: 38px;
+    background-color: #FEFFE4;
+}
+
+.pq-adulto{
+    border-radius: 14px;
+    background-color: #a4b0dd;
+}
+
+.libro-left-pq,
+.libro-right-pq{
+    z-index: 10000;
+    height: 100%;
+}
+.libro-left-pq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*width: 40%;*/
+    /*background-color: red;*/
+    height: 400px;
+    
+}
+.libro-right-pq{
+    width: auto;
+    padding: 10px;
+    padding-left: 20px;
+    /*background-color: blue;*/
+    height: 400px;
+    /*display: flex;
+    flex-flow: column nowrap;
+    align-items: center;*/
+}
+.libro-titulo-pq{
+    /*font-size: 18px;
+    font-weight: bold;*/
+    width: 100%;
+}
+
+.libro-edad-pq{
+    /*font-size: 11px;*/
+    width: 100%;
+}
+
+.libro-resena-pq{
+    /*font-size: 15px;*/
+    width: 100%;
+    padding-top: 15px;
+}
+
+.footer-box{
+    width: 100%;
+    background-color: #7f81ff;
+}
+
+footer{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 50px 50px 0px 50px;
+}
+
+.footer2{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.footer-top-box-pq{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2-top-box-pq,
+.footer2-top-box-pq a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 0 0;
+    margin: auto;
+}
+
+
+
+.footer2-top-box-pq .footer-middle-pq{
+    width: 30%;
+}
+
+.footer-bottom2-pq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.footer2-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.footer2-links img{
+    filter: grayscale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.footer2-links img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+.footer2-top-box-pq .footer-middle-pq{
+    transition: all 0.2s ease-in-out;
+}
+
+.footer2-top-box-pq .footer-middle-pq:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+.footer-bottom2-pq a img{
+    width: 30px;
+    padding: 5px;
+}
+
+.footer-left-pq,
+.footer-right-pq{
+    width: 30%;
+}
+
+.footer-left-pq img{
+    width: 150px;
+}
+
+.footer-right-pq ul{
+    list-style: none;
+}
+
+.footer-right-pq ul li{
+    padding: 10px;
+}
+
+.footer-right-pq img{
+    width: 50px;
+}
+
+.footer-right-pq ul li img{
+    filter: grayscale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-right-pq ul li img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+.footer-middle-pq{
+    background-color: #d1d7f8;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.footer-middle-pq img{
+    width: 100%;
+}
+
+.footer-flags-pq{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.footer-flags-pq img{
+    width: 30px;
+}
+
+.footer-bottom-pq{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-bottom-pq a{
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-bottom-pq a:hover{
+    transform: scale(1.05);
+}
+
+.footer-bottom2-pq>a{
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-bottom2-pq>a:hover{
+    transform: scale(1.05);
+}
+
+.footer-flags-pq img{
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-flags-pq img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.footer-flags-pq{
+    padding-bottom: 5px;
+}
+
+/*VISITAS*/
+
+    .body-visitas-pq{
+        max-width: 1300px;
+        margin: auto;
+        padding: 30px 0;
+        display: flex;
+        flex-flow: row;
+        color: #3e3e3e;
+        justify-content: space-between;
+    }
+
+    .visitas-pt2-pq{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .visitas-pt2-pq img{
+        width: 600px;
+        padding-bottom: 30px;
+    }
+
+/*BIOGRAFÍA*/
+
+.biografia-pq{
+    max-width: 1300px;
+    margin: auto;
+    padding: 30px 0;
+    color: #3e3e3e;
+}
+
+.biografia-pt2-pq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biografia-pt2-pq img{
+    width: 450px;
+    padding: 10px;
+}
+
+/*Dentro de los libros*/
+
+.inside-libro{
+    max-width: 1300px;
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.inside-libro img,
+.inside-libro div{
+    padding: 5px;
+}
+
+
+
+/*Libros especificos*/
+
+.perverso-pq .libro-right-pq{
+    padding-top: 28px;
+}
+
+.elfestindeagustin-pq .libro-right-pq{
+    padding-top: 25px;
+    line-height: 1rem;
+}
+
+.bartoloylosenfermosmagicos-pq .libro-right-pq{
+    padding-top: 20px; 
+    line-height: 1rem;
+}
+
+.lossuenosmagicosdebartolo-pq .libro-right-pq{
+    line-height: 1rem;
+    padding-top: 23px;
+}
+
+.lacamamagicadebartolo-pq .libro-right-pq{
+    padding-top: 18px;
+}
+
+.lafamilaguacatela-pq .libro-right-pq{
+    padding-top: 10px;
+}
+
+.veronicalaninabionica-pq .libro-right-pq{
+    line-height: 1rem;
+    padding-top: 23px;
+}
+
+.elcalcetindeagustin-pq .libro-right-pq{
+    line-height: 1rem;
+    padding-top: 28px;
+}
+
+.aycuantomequiero-pq .libro-right-pq{
+    padding-top: 23px;
+}
+
+.tincudalacomadrejitatrompuda-pq .libro-right-pq{
+    padding-top: 30px;
+    line-height: 1rem;
+}
+
+.mihermanogigante-pq .libro-left-pq{
+    flex-flow: column nowrap;
+}
+.mihermanogigante-pq .libro-edad-pq.mhg-pq{
+    padding-bottom: 10px;
+}
+
+.bartoloyloscocodrilosmagicos-pq .libro-right-pq{
+    line-height: 1rem;
+    padding-top: 15px;
+}
+
+.donmacanudo-pq .libro-right-pq{
+    line-height: 1rem;
+    padding-top: 30px;
+}
+
+.aycuantomevuelvoaquerer-pq .libro-right-pq{
+    padding-top: 23px;
+}
+
+.matildelaninainvisible-pq .libro-right-pq{
+    padding-top: 23px;
+}
+
+.supertatavsmistervil-pq .libro-right-pq{
+    padding-top: 23px;
+}
+
+.comodomesticaratuspapas-pq .libro-right-pq{
+    padding-top: 23px;
+}
+
+.lasaventurasdeventurio-pq .libro-right-pq{
+    padding-top: 23px;
+}
+
+.lasaventurasdeventurio-pq .libro-left-pq .correo-pq{
+    display: none;
+}
+
+.detectivesenllamas-pq .libro-right-pq{
+    line-height: 1rem;
+    padding-top: 30px;
+}
+
+.inside-libro{
+    padding: 50px 0;
+}
+
+/*Dentro de los libros*/
+
+.inside-libro .page,
+.inside-libro .page2{
+    height: 600px;
+    width: auto;
+}
+
+.editorial-pq{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.editorial-pq img{
+    width: 200px;
+    margin: auto;
+    
+}
+
+.editorial-pq p{
+    padding-top: 50px;
+}
+
+.inside-start-text{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.inside-libro.mihermanogigante img{
+    height: auto;
+    width: 49.3%;
+}
+
+/*.inside-libro.bartolo1 .page2{
+    width: auto;
+}*/
+
+/*-------------------------------------------RESPONSIVE---------------------------------------------------*/
+@media screen and (max-width: 1320px){
+    .body-visitas-pq{
+        padding: 10px;
+        flex-flow: column;
+    }
+    .visitas-pt2-pq img{
+        width: 100%;
+    }
+
+    .biografia-pq{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .header-box{
+        padding: 0 1%;
+    }
+    
+}
+
+@media screen and (max-width: 920px) {
+    .link-box-pq{
+        /*width: 50%;*/
+        padding: 5 10px;
+        min-width: 150px;
+    }
+}
+
+@media screen and (max-width: 730px)    {
+    .menu-responsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 10003;
+        height: 73px;
+    }
+    header{
+        z-index: 10003;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-box{
+        height: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 73px;
+        left: 0;
+        flex-flow: column wrap;
+        width: 94%;
+        background: #6c6ee0;
+        z-index: 10001;
+        padding: 0;
+        justify-content: center;
+        padding: 0 3%;
+        transition: all .05s;
+    }
+
+    .link-box-pq.link-box-index-pq{
+        display: none;
+        padding: 5px 0;
+        width: 100%;
+        margin: auto;
+    }
+    .header-responsive-logo{
+        display: block;
+        padding: 8px;
+        border-radius: 8px;
+    }
+    .header-responsive{
+        display: flex;
+        justify-content: space-between;
+        padding:  8px 4% ;
+        align-items: center;
+    }
+
+    .logo-box-pq{
+        display: none;
+    }
+
+    .body1-pq{
+        padding-top: 50px;
+    }
+
+    
+
+    #menu-responsive:checked + .header-box{
+        height: 430px;
+        overflow: visible;
+        
+    }
+
+    #menu-responsive:checked + .header-box .link-box-pq{
+        display: flex;
+    }
+
+    .footer-flags-pq{
+        width: 90%;
+    }
+    
+    .header-box2{
+        padding: 0;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-box2 .link-pq{
+        padding-bottom: 10px;
+        font-size: 1rem;
+        display: flex;
+        /*line-height: 0.9rem;*/
+        width: fit-content;
+    }
+
+    .header-box2 .link-pq .link-box-pq{
+        padding: 5px 0;
+    }
+
+    .header-title,
+    .header-title-libro{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    } 
+
+    .header-autors{
+        padding: 10px 0;
+        padding-top: 10px;
+        width: 50%;
+
+    }
+    .header-autor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inside-libro .page,
+    .inside-libro .page2{
+        width: 90%;
+        height: auto;
+    }
+    .inside-libro.mihermanogigante img{
+        height: auto;
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 565px){
+    .libros-pq{
+        width: 100%;
+        height: fit-content;
+        /*background-color: aqua;*/
+        margin: 20px;
+        padding: 20px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.05);
+        transition: all 0.2s ease-in-out;
+        /*flex-flow: row nowrap;*/
+    }
+    .libro-right-pq,
+    .libro-left-pq{
+        height: auto;
+    }
+    
+    .lasaventurasdeventurio-pq .libro-left-pq{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .lasaventurasdeventurio-pq .libro-right-pq .correo-pq{
+        display: none;
+    }
+    
+    .lasaventurasdeventurio-pq .libro-left-pq .correo-pq{
+        display: block;
+    }
+}
