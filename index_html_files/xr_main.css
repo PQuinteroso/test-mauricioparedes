@@ -1111,9 +1111,16 @@ footer{
     }
 }
 
-
+@media screen and (max-width: 830px) {
+    .pagina-junta .page{
+        width: 50%;
+        height: auto;
+    }
+}
 
 @media screen and (max-width: 730px)    {
+
+    
 
     #checkbox-responsive:checked.menu-responsive-input.responsive-pq + .header-box{
         height: 300px;
@@ -1375,11 +1382,14 @@ footer{
     .redes-top-right .footer2-links img{
         width: 95%;
     }
-    .link-pq{
+    .header-box2-responsive .link-pq{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 20px 0px;
     }
+
+    
 }
 @media screen and (max-width: 558px) {
     .logo-box-pq a{
@@ -1403,17 +1413,19 @@ footer{
     }
 }
 
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 470px) {
     .link-pq{
         height: 40px;
-        padding-top: 10px;
+        padding: 10px 0;
     }
     .link-pq a{
-        height: 50px;
+        
         padding: 0;
     }
+
+    
     #checkbox-responsive:checked.menu-responsive-input.responsive-pq + .header-box{
-        height: 190px;
+        height: 200px;
         overflow: visible;       
     }
 }
