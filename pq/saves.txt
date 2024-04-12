@@ -1,0 +1,47 @@
+Footer:
+
+                    <span class="xr_ar"
+                        style="left:0px;top:4460px;width:998px;height:38px; background-color: #7F81FF; border: 1px solid #7F81FF;"></span>
+                    <img class="xr_ap" src="index_html_files/2800.jpg" alt=""
+                        title="España: ¡Ay, cuánto me quiero! - Verónica la niña biónica"
+                        style="left:424px;top:4464px;width:50px;height:33px;" />
+                    <img class="xr_ap" src="index_html_files/2802.jpg" alt=""
+                        title="México: La cama mágica de Bartolo - ¡Ay, cuánto me quiero!"
+                        style="left:525px;top:4464px;width:50px;height:33px;" />
+                    <img class="xr_ap" src="index_html_files/2803.jpg" alt=""
+                        title="Colombia: ¡Ay, cuánto me quiero! - Cómo domesticar a tus papás - El festín de Agustín - La cama mágica de Bartolo"
+                        style="left:120px;top:4464px;width:50px;height:33px;" />
+                    <img class="xr_ap" src="index_html_files/2804.jpg" alt=""
+                        title="Chile: ¡Ay, cuánto me quiero! - Verónica la niña biónica - La cama mágica de Bartolo - Los sueños mágicos de Bartolo - Bartolo y los enfermos mágicos - Bartolo y los cocodrilos mágicos - Tincuda, la comadrejita trompuda - La familia Guácatela - El festín "
+                        style="left:322px;top:4464px;width:50px;height:33px;" />
+                    <img class="xr_ap" src="index_html_files/2805.png" alt=""
+                        title="Perú: ¡Ay, cuánto me quiero! - Verónica la niña biónica - Cómo domesticar a tus papás - Perverso - Mi hermano gigante - La familia Guácatela"
+                        style="left:727px;top:4464px;width:50px;height:33px;" />
+                    <img class="xr_ap" src="index_html_files/2806.jpg" alt="" title="Argentina: ¡Ay, cuánto me quiero!"
+                        style="left:18px;top:4464px;width:51px;height:33px;" />
+                    <img class="xr_ap" src="index_html_files/2826.jpg" alt=""
+                        title="Costa Rica: ¡Ay, cuánto me quiero! - Verónica la niña biónica - El festín de Agustín"
+                        style="left:219px;top:4464px;width:54px;height:33px;" />
+                    <img class="xr_ap" src="index_html_files/2890.jpg" alt=""
+                        title="Panamá: ¡Ay, cuánto me quiero! - El festín de Agustín - Verónica la niña biónica"
+                        style="left:626px;top:4464px;width:50px;height:33px;" />
+                    <img class="xr_ap" src="index_html_files/2895.jpg" alt=""
+                        title="Venezuela: (Matilde), la niña invisible"
+                        style="left:930px;top:4464px;width:51px;height:34px;" />
+                        <img class="xr_ap" src="index_html_files/2809.jpg" alt="" title="Uruguay: ¡Ay, cuánto me quiero!" style="left:829px;top:4464px;width:50px;height:33px;">
+                        Argentina
+                        
+
+Redes:
+                    <a href="http://www.facebook.com/habiaotravez" target="_blank" onclick="return(xr_nn());">
+                        <img class="xr_ap" src="index_html_files/3949.jpg" alt="" title=""
+                            onmousemove="xr_mo(this,0,event)" style="left:759px;top:173px;width:70px;height:70px;" />
+                    </a>
+                    <a href="http://instagram.com/mauricioparedes.escritor" target="_blank" onclick="return(xr_nn());">
+                        <img class="xr_ap" src="index_html_files/3950.jpg" alt="" title=""
+                            onmousemove="xr_mo(this,0,event)" style="left:839px;top:173px;width:70px;height:70px;" />
+                    </a>
+                    <a href="http://youtube.com/MauricioParedesS" target="_blank" onclick="return(xr_nn());">
+                        <img class="xr_ap" src="index_html_files/3951.jpg" alt="" title=""
+                            onmousemove="xr_mo(this,0,event)" style="left:919px;top:173px;width:70px;height:70px;" />
+                    </a>

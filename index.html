@@ -23,8 +23,9 @@
     <link rel="stylesheet" href="index_html_files/xr_text.css" />
     <link rel="shortcut icon" type="image/ico" href="index_html_files/favicon.ico" />
     <link rel="icon" type="image/ico" href="index_html_files/favicon.ico" />
+    <!--
     <script src="index_html_files/roe.js"></script>
-    <script src="index_html_files/replaceMobileFonts.js"></script>
+    <script src="index_html_files/replaceMobileFonts.js"></script>-->
     <link rel="stylesheet" href="index_html_files/ani.css" />
     <style>
         /*@media screen and (min-width: 950px) {
@@ -41,26 +42,20 @@
         <script>
             var xr_xr = document.getElementById("xr_xr")
         </script>
-        <header>
-            <div class="header-responsive">
+        <header id="header">
+            <div class="block-responsive"></div>
+            <div class="header-responsive" id="header-responsive">
                 <div class="header-responsive-logo">
                     <img src="index_html_files/Logo12-1.png" alt="logo">
                 </div>
                 
-                <label for="menu-responsive" class="menu-responsive">
+                <label for="checkbox-responsive" class="menu-responsive" id="menu-responsive">
                     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                       </svg>
                 </label>
-                <input type="checkbox" id="menu-responsive" class="menu-responsive-input">
-                <div class="header-box">
-                    <div class="link-pq">
-                        <a href="visitas.html">
-                            <div class="link-box-pq .link-box-index-pq">
-                                Visitas del autor
-                            </div>
-                        </a>
-                    </div>
+                <input type="checkbox" id="checkbox-responsive" class="menu-responsive-input">
+                <div class="header-box" id="header-box">
                     <div class="link-pq">
                         <a href="biografia.html">
                             <div class="link-box-pq .link-box-index-pq">
@@ -69,9 +64,9 @@
                         </a>
                     </div>
                     <div class="link-pq">
-                        <a href="https://www.facebook.com/habiaotravez">
+                        <a href="visitas.html">
                             <div class="link-box-pq .link-box-index-pq">
-                                Noticias
+                                Visitas de autor
                             </div>
                         </a>
                     </div>
@@ -89,7 +84,24 @@
             <img src="index_html_files/Logo8.jpg" alt="Logo">
             <a href="mailto:correo@mauricioparedes.com">correo@mauricioparedes.com</a>
         </div>
-        <div id="xr_td" class="xr_td body1-pq">
+        <div class="redes-top-pq">
+            <div class="redes-top-left">
+                <img src="pq/MP Foto 2023.jpeg" alt="Foto de Mauricio Paredes">
+            </div>
+            <div class="redes-top-right">
+                <div class="redes-text">
+                    Sigue las redes sociales de Mauricio Paredes:
+                </div>
+                <div class="footer2-links">
+                                    
+                    <a href="http://www.facebook.com/habiaotravez"><img src="index_html_files/facebook-icon.png" alt="facebook"></a></li>
+                    <a href="http://instagram.com/mauricioparedes.escritor"><img src="index_html_files/instagram-icon.png" alt="instagram"></a></li>
+                    <a href="http://youtube.com/MauricioParedesS"><img src="index_html_files/youtube-icon.png" alt="youtube"></a></li>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="body1pq xr_td" class="xr_td body1-pq">
             <div id="xr_xrc1" class="xr_ap xr_xri_ xr_xrc total-libros-pq" style="width: 100%;">
                 <!--Libros-->
 
@@ -97,13 +109,16 @@
                 <div class="libros-pq pq-nino detectivesenllamas-pq">
                     <a href="dll.html" class="libro-pc" onclick="return(xr_nn());">
                         <div class="libro-left-pq">
-                            <img src="index_html_files/dll-p.jpg" alt="Detectives en llamas" width="229px">
+                            <img src="pq/dll-p.jpg" alt="Detectives en llamas" width="229px">
                         </div>
                         <div class="libro-right-pq">
                             <div class="libro-titulo-pq">
                                 Detectives en llamas
                             </div>
                             <div class="libro-edad-pq">9+ años</div>
+                            <div class="libro-resena-pq libro-disclaimer">
+                                Las utilidades de este libro son para la 5ᵃ Compañía de bomberos de Santiago.
+                            </div>
                             <div class="libro-resena-pq">
                                 «¡Fuego, fuego!» grita doña Efluvia, la anciana vecina y amiga de los hermanos Delfina e Ismael Urrutia Lumbrera. Ellos corren a salvarla, pero luego encuentran una misteriosa nota que los llevará a una emocionante investigación para descubrir al autor del incendio. <br><br>Con la ayuda del capitán Ruperto, descifrarán pistas, aprenderán sobre los bomberos, viajarán por Chile y enfrentarán grandes riesgos en una apasionante aventura.
                             </div>
@@ -117,7 +132,7 @@
                                 Detectives en llamas
                             </div>
                             <div class="libro-edad-pq">9+ años</div>
-                            <img src="index_html_files/dll-p.jpg" alt="Detectives en llamas">
+                            <img src="pq/dll-p.jpg" alt="Detectives en llamas">
                             <div class="libro-resena-pq">
                                 «¡Fuego, fuego!» grita doña Efluvia, la anciana vecina y amiga de los hermanos Delfina e Ismael Urrutia Lumbrera. Ellos corren a salvarla, pero luego encuentran una misteriosa nota que los llevará a una emocionante investigación para descubrir al autor del incendio. <br><br>Con la ayuda del capitán Ruperto, descifrarán pistas, aprenderán sobre los bomberos, viajarán por Chile y enfrentarán grandes riesgos en una apasionante aventura.
                             </div>
@@ -557,15 +572,15 @@
                     </a>
                 </div>
 
-                <!--(Matilde), La niña invisible-->
+                <!--(Matilde), la niña invisible-->
                 <div class="libros-pq pq-nino matildelaninainvisible-pq">
                     <a href="m.html" class="libro-pc" onclick="return(xr_nn());">
                         <div class="libro-left-pq">
-                            <img src="index_html_files/2810.jpg" alt="(Matilde), La niña invisible">
+                            <img src="index_html_files/2810.jpg" alt="(Matilde), la niña invisible">
                         </div>
                         <div class="libro-right-pq">
                             <div class="libro-titulo-pq">
-                                (Matilde), La niña invisible
+                                (Matilde), la niña invisible
                             </div>
                             <div class="libro-edad-pq">3+ años</div>
                             <div class="libro-resena-pq">
@@ -578,10 +593,10 @@
                     <a href="m.html" class="libro-celular" onclick="return(xr_nn());">
                         <div class="libro-left-pq">
                             <div class="libro-titulo-pq">
-                                (Matilde), La niña invisible
+                                (Matilde), la niña invisible
                             </div>
                             <div class="libro-edad-pq">3+ años</div>
-                            <img src="index_html_files/2810.jpg" alt="(Matilde), La niña invisible">
+                            <img src="index_html_files/2810.jpg" alt="(Matilde), la niña invisible">
                             <div class="libro-resena-pq">
                                 Matilde está furiosa, no quiere helado, ni torta, ¡ni siquiera un poni blanco! ¡No, no y no! <br><br>¿Qué tal si bebe la fórmula secreta de su papá para hacerse invisible? Así podrá hacer todas las travesuras que quiera y nadie la descubrirá. <br><br>¡Excelente! <br><br>¿Y ahora qué? <br>¿Podrá Matilde encontrar el antídoto para volver a aparecer?
                             </div>
@@ -751,16 +766,20 @@
                             
                             <a href="mailto:correo@mauricioparedes.com">correo@mauricioparedes.com</a>
                             <div class="footer-flags-pq">
-                                <img src="index_html_files/argentina.png" alt="Argentina" title="Argentina: ¡Ay, cuánto me quiero!"/>
-                                <img src="index_html_files/colombia.png" alt="Colombia" title="Colombia: ¡Ay, cuánto me quiero! - Cómo domesticar a tus papás - El festín de Agustín - La cama mágica de Bartolo"/>
-                                <img src="index_html_files/costa-rica.png" alt="Costa Rica" title="Costa Rica: ¡Ay, cuánto me quiero! - Verónica la niña biónica - El festín de Agustín"/>
-                                <img src="index_html_files/chile.png" alt="Chile" title="Chile: ¡Todos!"/>
-                                <img src="index_html_files/spain.png" alt="España" title="España: ¡Ay, cuánto me quiero! - Verónica la niña biónica"/>
-                                <img src="index_html_files/mexico.png" alt="México" title="México: La cama mágica de Bartolo - ¡Ay, cuánto me quiero!"/>
-                                <img src="index_html_files/panama.png" alt="Panamá" title="Panamá: ¡Ay, cuánto me quiero! - El festín de Agustín - Verónica la niña biónica"/>
-                                <img src="index_html_files/peru.png" alt="Perú" title="Perú: ¡Ay, cuánto me quiero! - Verónica la niña biónica - Cómo domesticar a tus papás - Perverso - Mi hermano gigante - La familia Guácatela">
-                                <img src="index_html_files/uruguay.png" alt="Uruguay" title="Uruguay: ¡Ay, cuánto me quiero!">
-                                <img src="index_html_files/venezuela.png" alt="Venezuela" title="Venezuela: (Matilde), la niña invisible">
+                                <img src="index_html_files/argentina.png" alt="Argentina" title="Argentina"/>
+                                <img src="pq/bolivia.png" alt="Bolivia" title="Bolivia">
+                                <img src="index_html_files/colombia.png" alt="Colombia" title="Colombia"/>
+                                <img src="index_html_files/costa-rica.png" alt="Costa Rica" title="Costa Rica"/>
+                                <img src="index_html_files/chile.png" alt="Chile" title="Chile"/>
+                                <img src="pq/ecuador.png" alt="Ecuador" title="Ecuador">
+                                <img src="index_html_files/spain.png" alt="España" title="España"/>
+                                <img src="index_html_files/mexico.png" alt="México" title="México"/>
+                                <img src="index_html_files/panama.png" alt="Panamá" title="Panamá"/>
+                                <img src="pq/paraguay.png" alt="Paraguay" title="Paraguay">
+                                <img src="index_html_files/peru.png" alt="Perú" title="Perú">
+                                <img src="pq/dominican-republic.png" alt="República Dominicana" title="República Dominicana">
+                                <img src="index_html_files/uruguay.png" alt="Uruguay" title="Uruguay">
+                                
                             </div>
                         </div>
                     </div>
@@ -771,7 +790,9 @@
     </div>
     <!--[if lt IE 7]><script src="index_html_files/png.js"></script><![endif]-->
     <!--[if IE]><script>xr_aeh()</script><![endif]--><!--[if !IE]>-->
-    <script>xr_htm(); repMobFonts(); window.addEventListener('load', xr_aeh, false);</script><!--<![endif]-->
+    <script src="pq/pq.js"></script>
+    
+    
 </body>
 
 </html>
