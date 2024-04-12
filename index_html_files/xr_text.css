@@ -318,7 +318,6 @@
 
 .libro-right-pq .correo-pq,
 .lasaventurasdeventurio-pq .libro-left-pq .correo-pq{
-    text-decoration: underline;
     text-align: center;
 }
 
@@ -351,7 +350,8 @@
     /*color: #f7f7f7;*/
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    font-size: 20px;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
 }
 
 .visitas-titulo-pq{
@@ -406,5 +406,27 @@
     letter-spacing: 0em;
 }
 
+.detectivesenllamas-pq .libro-disclaimer{
+    font-weight: 600;
+    color: #575757;
+}
 /*-------------------------------------RESPONSIVE---------------------------------*/
 
+@media screen and (max-width: 730px) {
+    .header-title.header-title-libro{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .header-title .header-autors{
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .inside-start-text{
+        font-size: 0.6rem;
+        
+    }
+}

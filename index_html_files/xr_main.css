@@ -427,17 +427,36 @@ header{
     align-items: center;
 }
 
+.header-title-libro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    padding-top: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-title-text{
+    width: 50%;
+    text-align: end;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
 .header-autors{
-    padding: 0 50px;
+    width: 50%;
+    padding-left: 10px;
 }
 
 .header-ilustrador-subtext{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 400;
 }
 
 .link-box-pq{
-    background-color: #c23838;
+    background-color: #e62300;
     width: 100%;
     padding: 0 10px;
     display: flex;
@@ -451,13 +470,17 @@ header{
 }
 
 .header-box2{
-    max-width: 1200px;
+    max-width: 1300px;
     padding: 0 5%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     margin: auto;
+}
+
+.header-box2 .link-pq{
+    padding-right: 40px;
 }
 
 .header-box2 a{
@@ -473,12 +496,12 @@ header{
 }
 
 .logo-box-pq{
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-flow: column;
     text-align: end;
     margin:auto;
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
 .logo-box-pq img{
@@ -487,6 +510,64 @@ header{
 
 .logo-box-pq a{
     color: #034790;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    transition: all 0.2s ease-in-out;
+    font-family: "Poppins", sans-serif;
+}
+
+.redes-top-pq{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.redes-top-left,
+.redes-top-right{
+    padding: 5px;
+}
+
+.redes-top-left{
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-top-left img{
+    width: 90%;
+    height: auto;
+}
+
+.redes-top-right{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    padding: 0;
+}
+
+
+
+.redes-text{
+    color: #034790;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.redes-top-right img{
+    margin: auto;
+    width: 100px;
+    padding: 20px;
 }
 
 .total-libros-pq{
@@ -638,12 +719,11 @@ footer{
 }
 
 .footer2-links img{
-    filter: grayscale(1);
     transition: all 0.2s ease-in-out;
 }
 
 .footer2-links img:hover{
-    filter: grayscale(0);
+
     transform: scale(1.05);
 }
 
@@ -652,7 +732,7 @@ footer{
 }
 
 .footer2-top-box-pq .footer-middle-pq:hover{
-    filter: grayscale(0);
+
     transform: scale(1.05);
 }
 
@@ -755,6 +835,8 @@ footer{
 }
 
 .footer-flags-pq{
+    display: flex;
+    flex-flow: row wrap;
     padding-bottom: 5px;
 }
 
@@ -789,6 +871,10 @@ footer{
     color: #3e3e3e;
 }
 
+.body-visitas-pq.biografia-pq{
+    padding: 0 auto;
+}
+
 .biografia-pt2-pq{
     display: flex;
     justify-content: center;
@@ -797,7 +883,7 @@ footer{
 
 .biografia-pt2-pq img{
     width: 450px;
-    padding: 10px;
+    padding: 10px 5px;
 }
 
 /*Dentro de los libros*/
@@ -810,7 +896,7 @@ footer{
     justify-content: center;
 }
 
-.inside-libro img,
+.inside-libro>img,
 .inside-libro div{
     padding: 5px;
 }
@@ -907,9 +993,10 @@ footer{
 }
 
 .detectivesenllamas-pq .libro-right-pq{
-    line-height: 1rem;
     padding-top: 30px;
 }
+
+
 
 .inside-libro{
     padding: 50px 0;
@@ -933,6 +1020,10 @@ footer{
     
 }
 
+.inside-libro .pagina-junta{
+    display: flex;
+}
+
 .editorial-pq img{
     width: 200px;
     margin: auto;
@@ -948,6 +1039,7 @@ footer{
     margin: auto;
     text-align: center;
     padding: 10px;
+    max-width: 300px;
 }
 
 .inside-libro.mihermanogigante img{
@@ -959,7 +1051,21 @@ footer{
     width: auto;
 }*/
 
+.block-responsive{
+    display: none;
+}
 /*-------------------------------------------RESPONSIVE---------------------------------------------------*/
+@media screen and (max-width: 1200px) {
+    .page.pagedoble{
+        width: 90%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .redes-top-right{
+        width: 50%;
+    }
+}
 @media screen and (max-width: 1320px){
     .body-visitas-pq{
         padding: 10px;
@@ -971,6 +1077,10 @@ footer{
 
     .biografia-pq{
         padding: 10px;
+    }
+
+    .header-box2 .link-pq{
+        padding-right: 0px;
     }
 }
 
@@ -987,29 +1097,67 @@ footer{
         padding: 5 10px;
         min-width: 150px;
     }
+    
+    .logo-box-pq{
+        width: 55%;
+    }
 }
 
+@media screen and (max-width: 900px) {
+    
+
+    .redes-top-right img{
+        width: 60%;
+    }
+}
+
+
+
 @media screen and (max-width: 730px)    {
-    .menu-responsive{
+
+    #checkbox-responsive:checked.menu-responsive-input.responsive-pq + .header-box{
+        height: 300px;
+        overflow: visible;
+        
+    }
+
+    #checkbox-responsive:checked + .header-box .link-box-pq{
+        display: flex;
+    }
+
+    header{
+        transition: all ease-in-out .2s;
+    }
+    
+    .block-responsive.responsive-pq{
+        display: block;
+        height: 100px;
+        background-color: white;
+    }
+    .menu-responsive.responsive-pq{
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
         z-index: 10003;
         height: 73px;
+        
     }
-    header{
+    header.responsive-pq{
         z-index: 10003;
         
         display: flex;
         justify-content: center;
         align-items: center;
+        position: fixed;
+        /*transition: all ease-in-out .2s;*/
+        box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
     }
-    .header-box{
+    .header-box.responsive-pq{
         height: 0;
         overflow: hidden;
         position: absolute;
-        top: 73px;
+        top: 87px;
         left: 0;
         flex-flow: column wrap;
         width: 94%;
@@ -1018,65 +1166,76 @@ footer{
         padding: 0;
         justify-content: center;
         padding: 0 3%;
-        transition: all .05s;
+        transition: all ease-in-out .05s;
     }
 
-    .link-box-pq.link-box-index-pq{
+    .header-box .link-box-pq{
+        padding: 1px;
+        font-size: 0.9rem;
+    }
+
+    .header-box.responsive-pq .link-box-pq.link-box-index-pq{
         display: none;
         padding: 5px 0;
         width: 100%;
         margin: auto;
     }
-    .header-responsive-logo{
+    .header-responsive-logo.responsive-pq{
         display: block;
         padding: 8px;
         border-radius: 8px;
+        
     }
-    .header-responsive{
+    .header-responsive.responsive-pq{
         display: flex;
         justify-content: space-between;
         padding:  8px 4% ;
         align-items: center;
+        transition: all ease-in-out .2s;
     }
 
-    .logo-box-pq{
-        display: none;
-    }
-
-    .body1-pq{
-        padding-top: 50px;
-    }
-
-    
-
-    #menu-responsive:checked + .header-box{
-        height: 430px;
-        overflow: visible;
+    .logo-box-pq.responsive-pq{
+        padding-top: 100px;
         
     }
 
-    #menu-responsive:checked + .header-box .link-box-pq{
-        display: flex;
+    .body1-pq.responsive-pq{
+        padding-top: 0px;
     }
 
     .footer-flags-pq{
         width: 90%;
     }
-    
-    .header-box2{
+    .header2{
+        height: 95px;
+    }
+    .header2-responsive{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-title{
+        padding: 0;
+    }
+    /*.header-box2{
         padding: 0;
         flex-flow: column nowrap;
         justify-content: space-between;
         align-items: center;
         text-align: center;
-    }
+    }*/
 
-    .header-box2 .link-pq{
+    /*.header-box2 .link-pq{
         padding-bottom: 10px;
         font-size: 1rem;
         display: flex;
-        /*line-height: 0.9rem;*/
+        /*line-height: 0.9rem;
         width: fit-content;
+    }*/
+    .header-box.responsive-pq.header-box2-responsive{
+        top: 95px;
+    }
+    #checkbox-responsive:checked.menu-responsive-input.responsive-pq + .header-box.header-box2-responsive{
+        height: 360px;
     }
 
     .header-box2 .link-pq .link-box-pq{
@@ -1089,32 +1248,71 @@ footer{
         justify-content: space-around;
         align-items: center;
         text-align: center;
+        width: 80%;
+        padding: 0;
+        height: 95px;
+        align-items: center;
     } 
+
+    .header-title-text{
+        text-align: center;
+        padding: 0;
+        
+    }
 
     .header-autors{
         padding: 10px 0;
         padding-top: 10px;
         width: 50%;
-
+        font-size: 0.5rem;
+        
     }
+    
     .header-autor{
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .inside-libro .page,
-    .inside-libro .page2{
+
+    .menu-responsive.responsive-pq.menu-responsive2{
+        height: 100%;
+        padding: 30px 30px 0 0;
+    }
+    .inside-libro>.page,
+    .inside-libro>.page2,
+    .pagina-junta{
         width: 90%;
+        height: auto;
+    }
+    .pagina-junta .page{
+        width: 50%;
         height: auto;
     }
     .inside-libro.mihermanogigante img{
         height: auto;
         width: 90%;
     }
+
+    .header-box3 .link-pq .link-box-pq{
+        padding: 0;
+    }
+
+    .header-box3 .header-title{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 702px){
+    .logo-box-pq{
+        width: 70%;
+        padding: 40px;
+    }
 }
 
 
+
 @media screen and (max-width: 565px){
+    
     .libro-pc{
         display: none;
     }
@@ -1157,5 +1355,86 @@ footer{
     
     .libro-left-pq img{
         width: 50%;
+    }
+
+    .lasaventurasdeventurio-pq .libro-left-pq .correo-pq{
+        display: block;
+    }
+
+    .footer2-top-box-pq .footer-middle-pq{
+        width: 70%;
+    }
+
+
+    .redes-top-right .footer2-links a{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .redes-top-right .footer2-links img{
+        width: 95%;
+    }
+    .link-pq{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 558px) {
+    .logo-box-pq a{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-box{
+        flex-flow: row wrap;
+    }
+    .footer-bottom2-pq a{
+        font-size: .8rem;
+    }
+    .footer-flags-pq{
+        justify-content: center;
+    }
+
+    .biografia-pt2-pq img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .link-pq{
+        height: 40px;
+        padding-top: 10px;
+    }
+    .link-pq a{
+        height: 50px;
+        padding: 0;
+    }
+    #checkbox-responsive:checked.menu-responsive-input.responsive-pq + .header-box{
+        height: 190px;
+        overflow: visible;       
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .logo-box-pq a{
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .header-title-libro .header-title-text{
+        line-height: 0.9rem;
+    }
+
+    .header-autors{
+        line-height: 0.8rem;
+        padding-left: 5px;
+    }
+
+    .header-box3 .header-title{
+        font-size: 1.3rem;
     }
 }
