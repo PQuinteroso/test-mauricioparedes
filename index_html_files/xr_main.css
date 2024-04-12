@@ -1423,6 +1423,9 @@ footer{
         padding: 0;
     }
 
+    .header-box3 .link-pq{
+        height: auto;
+    }
     
     #checkbox-responsive:checked.menu-responsive-input.responsive-pq + .header-box{
         height: 200px;
