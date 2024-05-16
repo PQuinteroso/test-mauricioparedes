@@ -378,7 +378,7 @@ a:active .xr_ro13 {
     transition: visibility 300ms;
 }
 
-/*CSS PQ*/
+/*//////////////////////////////////////////////////////CSS PQ///////////////////////////////////////////////////////*/
 
 header{
     width: 100%;
@@ -455,6 +455,32 @@ header{
     font-weight: 400;
 }
 
+.header4 .header-box{
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.header4 .header-box .link-box-pq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header4 .header-box .link-pq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header4 .header-box .link-pq a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .link-box-pq{
     background-color: #e62300;
     width: 100%;
@@ -496,12 +522,12 @@ header{
 }
 
 .logo-box-pq{
-    width: 40%;
+    width: 25%;
     display: flex;
     flex-flow: column;
     text-align: end;
     margin:auto;
-    padding: 75px 0;
+    padding: 50px 0 40px 0;
 }
 
 .logo-box-pq img{
@@ -538,7 +564,7 @@ header{
 }
 
 .redes-top-left img{
-    width: 90%;
+    width: 85%;
     height: auto;
 }
 
@@ -566,8 +592,8 @@ header{
 
 .redes-top-right img{
     margin: auto;
-    width: 100px;
-    padding: 20px;
+    width: 75px;
+    padding: 10px;
 }
 
 .total-libros-pq{
@@ -845,21 +871,26 @@ footer{
     .body-visitas-pq{
         max-width: 1300px;
         margin: auto;
-        padding: 30px 0;
+        padding: 20px 0;
         display: flex;
         flex-flow: row;
         color: #3e3e3e;
         justify-content: space-between;
     }
 
+    .visitas-pt1-pq{
+        padding: 0px 10px 0px 0px;
+    }
+
     .visitas-pt2-pq{
         display: flex;
         flex-flow: column nowrap;
+        padding: 0px 0px 0px 10px;
     }
 
     .visitas-pt2-pq img{
-        width: 600px;
-        padding-bottom: 30px;
+        width: 100%;
+        padding: 0 0px 20px 0px;
     }
 
 /*BIOGRAFÍA*/
@@ -867,7 +898,7 @@ footer{
 .biografia-pq{
     max-width: 1300px;
     margin: auto;
-    padding: 30px 0;
+    padding: 20px 0 0 0;
     color: #3e3e3e;
 }
 
@@ -882,8 +913,11 @@ footer{
 }
 
 .biografia-pt2-pq img{
-    width: 450px;
-    padding: 10px 5px;
+    width: 375px;
+}
+
+.biografia2-pq{
+    padding-bottom: 20px;
 }
 
 /*Dentro de los libros*/
@@ -1051,6 +1085,8 @@ footer{
     width: auto;
 }*/
 
+
+
 .block-responsive{
     display: none;
 }
@@ -1066,23 +1102,41 @@ footer{
         width: 50%;
     }
 }
-@media screen and (max-width: 1320px){
-    .body-visitas-pq{
+@media screen and (max-width: 1340px){
+    /*.body-visitas-pq{
         padding: 10px;
         flex-flow: column;
     }
     .visitas-pt2-pq img{
         width: 100%;
-    }
+    }*/
 
     .biografia-pq{
-        padding: 10px;
+        padding: 20px;
+    }
+
+    .header4 .header-box{
+        padding: 20px;
+    }
+
+    .biografia-pt2-pq img{
+        padding-left: 20px;
+    }
+
+    .body-visitas-pq.biografia-pq{
+        padding: 0 20px;
     }
 
     .header-box2 .link-pq{
         padding-right: 0px;
     }
+
+    .body-visitas-pq{
+        padding: 20px;
+    }
 }
+
+
 
 @media screen and (max-width: 1125px) {
     .header-box{
@@ -1115,6 +1169,40 @@ footer{
     .pagina-junta .page{
         width: 50%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .body-visitas-pq.biografia-pq{
+        flex-flow: column nowrap;
+    }
+
+    .biografia-pt2-pq img{
+        padding: 20px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    .logo-box-pq{
+        padding: 20px;
+    }
+
+    .redes-top-pq{
+        padding: 0;
+    }
+    .redes-top-left{
+        padding-top: 0;
+    }
+    .redes-top-right .footer2-links{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .redes-top-right .footer2-links a img{
+        height: 50px;
+        width: auto;
+        padding: 0;
     }
 }
 
@@ -1304,19 +1392,98 @@ footer{
         padding: 0;
     }
 
-    .header-box3 .header-title{
+   .header-box3 .header-title{
         width: auto;
+    }
+
+    .header4 .link-pq{
+        display: flex;
+    }
+
+    .header4 .header-box{
+        align-items: center;
+        justify-content: space-between;
+        height: 46px;
+    }
+
+    .header-title.header-title4{
+        height: 80px;
+        width: auto;
+    }
+
+    .header4 .header-box5{
+        flex-flow: row wrap;
+        height: fit-content;
+        justify-content: space-around;
+    }
+
+    .header-title.header-title5{
+        width: 100%;
+        height: auto;
+        font-size: 24px;
+        padding: 0px 0px 10px 0px;
     }
 }
 
 @media screen and (max-width: 702px){
     .logo-box-pq{
         width: 70%;
-        padding: 40px;
     }
 }
 
+@media screen and (max-width: 700px) {
+    .header4 .header-box{
+        flex-flow: row wrap;
+        height: fit-content;
+        justify-content: space-around;
+    }
+    .header.header4{
+        height: auto;
+    }
+    .header4 .header-title{
+        width: 100%;
+        height: auto;
+        font-size: 24px;
+        padding: 0px 0px 10px 0px;
+    }
+}
 
+@media screen and (max-width: 649px) {
+    .body-visitas-pq{
+        flex-direction: column;
+    }
+    .visitas-pt1-pq,
+    .visitas-pt2-pq{
+        padding: 0;
+    }
+
+    .visitas-pt1-pq ul{
+        padding-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 609px) {
+    .header4 .header-box{
+        flex-flow: row wrap;
+    }
+    
+    .header4 .link-pq{
+        display: flex;
+        padding: 0 0 10px 0;
+    }
+    .header4 .link-pq4{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 571px) {
+    .redes-top-right{
+        width: 70%;
+    }
+    .redes-text{
+        font-size: 1rem;
+    }
+}
 
 @media screen and (max-width: 565px){
     
@@ -1397,6 +1564,15 @@ footer{
     }
 }
 
+@media screen and (max-width: 514px) {
+    .redes-top-right{
+        width: 80%;
+    }
+    .redes-text{
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .header-box{
         flex-flow: row wrap;
@@ -1430,6 +1606,12 @@ footer{
     #checkbox-responsive:checked.menu-responsive-input.responsive-pq + .header-box{
         height: 200px;
         overflow: visible;       
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .redes-top-left img{
+        width: 75%;
     }
 }
 
