@@ -1,0 +1,431 @@
+/* Text styles */
+
+
+.xr_s0 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 21.33px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s1,
+.libro-titulo-pq{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #3e3e3e;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s2,
+.libro-edad-pq{
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #3e3e3e;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s3,
+.libro-resena-pq{
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12.99px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #3e3e3e;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s4 {
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15.52px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s5 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 9.7px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s6 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12.6px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s7 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s8,
+.secuela-pq{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #3e3e3e;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s9 {
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12.99px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s10 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s11 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 12.6px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s12 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 12.6px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s13 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 12.99px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s14 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s15 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s16 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s17 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s18 {
+    font-family: 'Verdana_xr';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s19 {
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s20 {
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #FFFFFF;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s21 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 11.67px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s22 {
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 11.67px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.xr_s23 {
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #000000;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.libro-right-pq .correo-pq,
+.lasaventurasdeventurio-pq .libro-left-pq .correo-pq{
+    text-align: center;
+}
+
+.lasaventurasdeventurio-pq .correo-pq{
+    font-size: 12px;
+}
+
+.mhg-pq{
+    text-align: center;
+}
+
+.header-title{
+    color: #f7f7f7;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.header-title .header-autors{
+    color: #f7f7f7;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.body-visitas-pq,
+.biografia-pq{
+    /*color: #f7f7f7;*/
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.visitas-titulo-pq{
+    /*color: #f7f7f7;*/
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.correo-visitas-pq{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.pq-adulto .libro-titulo-pq,
+.pq-adulto .libro-edad-pq,
+.pq-adulto .libro-resena-pq{
+    color: #262626;
+}
+
+.header-title.header-title-libro{
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+
+.editorial-pq{
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #3e3e3e;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.inside-start-text{
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-feature-settings: 'kern', 'liga' 0, 'clig' 0, 'calt' 0, 'titl' 0, 'salt' 0, 'swsh' 0, 'cswh' 0;
+    text-transform: none;
+    color: #3e3e3e;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+
+.detectivesenllamas-pq .libro-disclaimer{
+    font-weight: 600;
+    color: #575757;
+}
+/*-------------------------------------RESPONSIVE---------------------------------*/
+@media screen and (max-width: 730px) {
+    .header-title.header-title-libro{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .header-title .header-autors{
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .inside-start-text{
+        font-size: 0.6rem;
+        
+    }
+}
+
+/**/
