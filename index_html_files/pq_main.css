@@ -621,6 +621,28 @@ header{
     transform: scale(1.02);
 }
 
+.libros-pq.con-enlace-externo-pq{
+    position: relative;
+}
+
+.libros-pq .enlace-externo-pq{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    left: 20px;
+    z-index: 10001;
+    display: flex;
+    justify-content: center;
+    color: #034790;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.inside-start-text .enlace-correo-pq{
+    color: inherit;
+    text-decoration: underline;
+}
+
 .libros-pq a{
     color: #000000;
     display: flex;
@@ -963,6 +985,10 @@ footer{
 }
 
 .lafamilaguacatela-pq .libro-right-pq{
+    padding: 10px 4px 0 12px;
+}
+
+.lafamilaguacatela-pq .libro-pc .libro-resena-pq{
     padding-top: 10px;
 }
 
@@ -1028,6 +1054,14 @@ footer{
 
 .detectivesenllamas-pq .libro-right-pq{
     padding-top: 30px;
+}
+
+.bartoloylosenfermosmagicos-pq .libro-left-pq img{
+    max-height: 357px;
+}
+
+.lafamilaguacatela-pq .libro-pc .libro-left-pq img{
+    max-height: 300px;
 }
 
 
@@ -1522,6 +1556,10 @@ footer{
         transition: all 0.2s ease-in-out;
         /*flex-flow: row nowrap;*/
     }
+
+    .libros-pq.con-enlace-externo-pq{
+        padding-bottom: 55px;
+    }
     .libro-right-pq,
     .libro-left-pq{
         height: auto;
@@ -1529,6 +1567,13 @@ footer{
     
     .libro-left-pq img{
         width: 50%;
+    }
+
+    .lafamilaguacatela-pq .libro-celular .libro-left-pq img{
+        width: auto;
+        height: auto;
+        max-width: 50%;
+        max-height: 340px;
     }
 
     .lasaventurasdeventurio-pq .libro-left-pq .correo-pq{
