@@ -1,1 +1,1 @@
-Sitemap: http://www.mauricioparedes.com/sitemap.xml
+Sitemap: https://www.mauricioparedes.com/sitemap.xml
